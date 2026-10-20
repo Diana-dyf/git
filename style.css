@@ -1,7 +1,34 @@
-body {
-    background-color: lightblue;
+/* 3.4 Font size and color */
+h2 {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    font-size: 28px; /* Adjust font size*/
 }
-h3 {
-    color: red;
-    font-family: Arial;
+
+/* 3.5 Margin - The blank space outside */
+ul, ol {
+    margin-left: 40px; /* Shrink the entire list to the right by distance */
+    margin-top: 20px;
+}
+
+/* 3.6 Padding - The blank space inside */
+body {
+    background-color: #e6f2ff; /* Adjust to a more appealing light blue background */
+    padding: 30px; /* Give all content a 30px distance from the browser edges */
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse; /* Make table borders collapse for a cleaner look */
+    margin-top: 10px;
+}
+th, td {
+    padding: 8px; /* Make text in table cells not stick to the borders */
+    border: 1px solid black;
+}
+
+/* Form input spacing */
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
 }
